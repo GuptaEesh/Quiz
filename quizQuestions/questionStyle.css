@@ -1,1 +1,31 @@
-@import url('/index.css');
+
+
+.question-container{
+    display: grid;
+    gap:var(--spacing-two);
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: var(--spacing-three);
+    width: 60%;
+}
+.question.headings{
+    font-size: large;
+    text-align:left;
+    line-height: var(--spacing-two);
+    grid-column: 1/-1;
+}
+.option{
+    background-color: var(--secondary-300);
+    border-radius: 5px;
+    color:var(--white);
+    padding: var(--spacing-one);
+}
+.option:hover{
+    cursor: pointer;
+    transform: translate3d(3px, 3px, 3px);
+    transition: all 200ms ease-in;
+}
+.mini-links:hover .headings{
+    cursor: pointer;
+    color: var(--secondary-300);
+}
