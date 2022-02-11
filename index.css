@@ -39,8 +39,6 @@ body{
 
 .headings{
     color: var(--white);
-    text-align: center;
-
 }
 .nav-secondTabs{
     display: flex;
