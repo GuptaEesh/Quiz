@@ -1,3 +1,6 @@
+@import url('/quizQuestions/questionStyle.css');
+@import url('/quizQuestions/result.css');
+
 :root{
     --gutter-one:1rem;
     --gutter-two:2rem;
