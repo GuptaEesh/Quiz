@@ -15,6 +15,7 @@
 body{
     background-color: var(--primary-400);
 }
+
 .header{
     align-items: center;
     display: flex;

@@ -1,3 +1,17 @@
-.rules.body{
-    border: 2px solid var(--primary-200);
+.rules-body{
+    align-items: center;
+    border: 2px solid var(--white);
+    border-radius: var(--gutter-one);
+    display: flex;
+    flex-direction: column;
+    height: var(--card-large);
+    margin: auto;
+    width: var(--card-large);
+}
+.rules{
+    color: var(--white);
+    line-height: var(--gutter-two);
+    margin-top: var(--gutter-two);
+    padding:var(--gutter-one) var(--gutter-two);
+    width: var(--card-large);
 }
