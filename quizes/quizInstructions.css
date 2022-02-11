@@ -6,6 +6,7 @@
     flex-direction: column;
     height: var(--card-large);
     margin: auto;
+    padding-top: var(--spacing-one);
     width: var(--card-large);
 }
 .rules{
