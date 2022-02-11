@@ -4,7 +4,6 @@
     border-radius: var(--spacing-one);
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-2);
     height: var(--card-large);
     margin: auto;
     padding: var(--spacing-one);
