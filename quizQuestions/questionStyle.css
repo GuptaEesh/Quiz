@@ -2,16 +2,16 @@
 
 .question-container{
     display: grid;
-    gap:var(--spacing-two);
+    gap:var(--spacing-2);
     grid-template-columns: 1fr 1fr;
     margin: auto;
-    margin-top: var(--spacing-three);
+    margin-top: var(--spacing-3);
     width: 60%;
 }
 .question.headings{
     font-size: large;
     text-align:left;
-    line-height: var(--spacing-two);
+    line-height: var(--spacing-2);
     grid-column: 1/-1;
 }
 .option{
