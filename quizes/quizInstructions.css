@@ -1,7 +1,7 @@
 .rules-body{
     align-items: center;
     border: 2px solid var(--white);
-    border-radius: var(--gutter-one);
+    border-radius: var(--spacing-one);
     display: flex;
     flex-direction: column;
     height: var(--card-large);
@@ -10,8 +10,8 @@
 }
 .rules{
     color: var(--white);
-    line-height: var(--gutter-two);
-    margin-top: var(--gutter-two);
-    padding:var(--gutter-one) var(--gutter-two);
+    line-height: var(--spacing-2);
+    margin-top: var(--spacing-2);
+    padding:var(--spacing-one) var(--spacing-2);
     width: var(--card-large);
 }

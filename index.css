@@ -2,13 +2,13 @@
 
 :root{
     --spacing-one:1rem;
-    --spacing-two:2rem;
-    --spacing-three:4rem;
-    --spacing-four:6rem;
-    --spacing-five:8rem;
-    --spacing-six:10rem;
-    --spacing-seven:12rem;
-    --spacing-eight:14rem;
+    --spacing-2:2rem;
+    --spacing-4:4rem;
+    --spacing-6:6rem;
+    --spacing-8:8rem;
+    --spacing-10:10rem;
+    --spacing-12:12rem;
+    --spacing-14:14rem;
 
     --card-large:20rem;
 }
@@ -21,7 +21,7 @@ body{
     display: flex;
     gap:var(--spacing-one);
     justify-content: space-between;
-    margin: var(--spacing-two);
+    margin: var(--spacing-2);
 
 }
 .header .header-left{
@@ -55,7 +55,7 @@ body{
     display: flex;
     gap:var(--spacing-one);
     justify-content: center;
-    margin-top:var(--spacing-three);
+    margin-top:var(--spacing-4);
 }
 .eg-card.card-two{
     box-shadow: 0 0 5px 5px var(--white);
