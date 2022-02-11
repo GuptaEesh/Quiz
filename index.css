@@ -1,0 +1,66 @@
+@import url('quizes/quizInstructions.css');
+
+:root{
+    --gutter-one:1rem;
+    --gutter-two:2rem;
+    --gutter-three:4rem;
+    --gutter-four:6rem;
+    --gutter-five:8rem;
+    --gutter-six:10rem;
+    --gutter-seven:12rem;
+    --gutter-eight:14rem;
+
+    --card-large:20rem;
+}
+body{
+    background-color: var(--primary-400);
+}
+.header{
+    align-items: center;
+    display: flex;
+    gap:var(--gutter-one);
+    justify-content: space-between;
+    margin: var(--gutter-two);
+
+}
+.header .header-left{
+    display: flex;
+
+}
+.header .header-left a{
+    color: var(--white);
+}
+.header .header-right{
+    display: flex;
+    gap:var(--gutter-one);
+
+}
+.header .profile-avatar{
+    background-color: var(--white);
+}
+
+.headings{
+    color: var(--white);
+    text-align: center;
+
+}
+.nav-secondTabs{
+    display: flex;
+    gap:var(--gutter-one);
+    justify-content: center;
+    margin-top: var(--gutter-one);
+}
+.quiz-options{
+    display: flex;
+    gap:var(--gutter-one);
+    justify-content: center;
+    margin-top:var(--gutter-three);
+}
+.eg-card.card-two{
+    box-shadow: 0 0 5px 5px var(--white);
+    height: var(--card-large);
+}
+.eg-card.card-two:hover{
+    transform: rotate(-5deg);
+    transition:all 700ms ease;
+} 
