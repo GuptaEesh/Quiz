@@ -26,7 +26,7 @@ body{
 }
 .header .header-left{
     display: flex;
-
+  
 }
 .header .header-left a{
     color: var(--white);
@@ -34,7 +34,7 @@ body{
 .header .header-right{
     display: flex;
     gap:var(--spacing-one);
-
+    
 }
 .header .profile-avatar{
     background-color: var(--white);
@@ -42,8 +42,6 @@ body{
 
 .headings{
     color: var(--white);
-    text-align: center;
-
 }
 .nav-secondTabs{
     display: flex;
@@ -64,4 +62,4 @@ body{
 .eg-card.card-two:hover{
     transform: rotate(-5deg);
     transition:all 700ms ease;
-} 
+}
