@@ -1,14 +1,14 @@
 @import url('quizes/quizInstructions.css');
 
 :root{
-    --gutter-one:1rem;
-    --gutter-two:2rem;
-    --gutter-three:4rem;
-    --gutter-four:6rem;
-    --gutter-five:8rem;
-    --gutter-six:10rem;
-    --gutter-seven:12rem;
-    --gutter-eight:14rem;
+    --spacing-one:1rem;
+    --spacing-two:2rem;
+    --spacing-three:4rem;
+    --spacing-four:6rem;
+    --spacing-five:8rem;
+    --spacing-six:10rem;
+    --spacing-seven:12rem;
+    --spacing-eight:14rem;
 
     --card-large:20rem;
 }
@@ -19,9 +19,9 @@ body{
 .header{
     align-items: center;
     display: flex;
-    gap:var(--gutter-one);
+    gap:var(--spacing-one);
     justify-content: space-between;
-    margin: var(--gutter-two);
+    margin: var(--spacing-two);
 
 }
 .header .header-left{
@@ -33,7 +33,7 @@ body{
 }
 .header .header-right{
     display: flex;
-    gap:var(--gutter-one);
+    gap:var(--spacing-one);
 
 }
 .header .profile-avatar{
@@ -47,15 +47,15 @@ body{
 }
 .nav-secondTabs{
     display: flex;
-    gap:var(--gutter-one);
+    gap:var(--spacing-one);
     justify-content: center;
-    margin-top: var(--gutter-one);
+    margin-top: var(--spacing-one);
 }
 .quiz-options{
     display: flex;
-    gap:var(--gutter-one);
+    gap:var(--spacing-one);
     justify-content: center;
-    margin-top:var(--gutter-three);
+    margin-top:var(--spacing-three);
 }
 .eg-card.card-two{
     box-shadow: 0 0 5px 5px var(--white);
