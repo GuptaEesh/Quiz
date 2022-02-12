@@ -1,4 +1,4 @@
-.rules-body{
+.rules-body {
     align-items: center;
     border: 2px solid var(--white);
     border-radius: var(--spacing-one);
@@ -9,9 +9,11 @@
     padding: var(--spacing-one);
     width: var(--card-large);
 }
-.rules{
+
+.rules {
     color: var(--white);
     line-height: var(--size-24);
-    margin-top:var(--spacing-one);
+    margin-top: var(--spacing-one);
     margin-bottom: var(--size-12);
 }
+

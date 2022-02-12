@@ -1,20 +1,25 @@
-.correct-answer{
+.correct-answer {
     background-color: var(--green-200);
 
 }
-.wrong-answer{
+
+.wrong-answer {
     background-color: var(--red-400);
 }
-.result-body{
+
+.result-body {
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-4);
 }
-.result-body .option:hover{
+
+.result-body .option:hover {
     transform: none;
 }
-.result-body .primary{ 
-  margin-bottom: var(--spacing-4);
+
+.result-body .primary {
+    margin-bottom: var(--spacing-4);
 
 }
+
