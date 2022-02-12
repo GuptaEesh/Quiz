@@ -1,0 +1,17 @@
+.rules-body{
+    align-items: center;
+    border: 2px solid var(--white);
+    border-radius: var(--spacing-one);
+    display: flex;
+    flex-direction: column;
+    height: var(--card-large);
+    margin: auto;
+    padding: var(--spacing-one);
+    width: var(--card-large);
+}
+.rules{
+    color: var(--white);
+    line-height: var(--size-24);
+    margin-top:var(--spacing-one);
+    margin-bottom: var(--size-12);
+}

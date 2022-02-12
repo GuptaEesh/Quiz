@@ -1,5 +1,6 @@
 @import url('/quizQuestions/questionStyle.css');
 @import url('/quizQuestions/result.css');
+@import url('quizes/quizInstructions.css');
 
 :root{
     --spacing-one:1rem;
