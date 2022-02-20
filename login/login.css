@@ -1,0 +1,15 @@
+.login-dialogue {
+    align-items: center;
+    border-radius: var(--size-08);
+    box-shadow: 0 0 8px var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 8rem auto;
+    padding: 10px;
+    width: 20rem;
+}
+.text-white{
+    color: var(--white);
+}
+
