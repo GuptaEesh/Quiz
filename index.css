@@ -2,6 +2,7 @@
 @import url('/quizQuestions/result.css');
 @import url('quizes/quizInstructions.css');
 @import url('login/login.css');
+@import url('signUp/signup.html');
 
 :root {
     --spacing-one: 1rem;
