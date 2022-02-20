@@ -72,8 +72,8 @@ body {
 }
 
 .eg-card.card-two:hover {
-    transform: rotate(-5deg);
-    transition: all 700ms ease;
+    transform: translateY(-1%);
+    transition: all 500ms ease;
 }
 
 @media all and (max-width:600px) {
