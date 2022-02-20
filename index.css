@@ -1,6 +1,7 @@
 @import url('/quizQuestions/questionStyle.css');
 @import url('/quizQuestions/result.css');
 @import url('quizes/quizInstructions.css');
+@import url('login/login.css');
 
 :root {
     --spacing-one: 1rem;
@@ -29,8 +30,9 @@ body {
 }
 
 .header .header-left {
+    align-items: center;
     display: flex;
-
+    justify-content: center;
 }
 
 .header .header-left a {
@@ -75,6 +77,7 @@ body {
     transform: translateY(-1%);
     transition: all 500ms ease;
 }
+
 
 @media all and (max-width:600px) {
     
